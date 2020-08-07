@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: packaginganddelivery
-        image: returnorderimages.azurecr.io/packagaingpos:latest
+        image: returnorderimages.azurecr.io/packagaingrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
